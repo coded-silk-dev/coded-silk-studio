@@ -1,21 +1,26 @@
-# Node.js dependencies
+### Node.js dependencies and build artifacts ###
 node_modules/
-/dist/
-/build/
+dist/
+build/
+*.log
 
-# Sensitive environment variables
+### Sensitive environment variables ###
 .env
 .env.local
 
-# macOS system files
+### Strapi CMS ###
+strapi/.cache
+strapi/build
+
+### macOS ###
 .DS_Store
 
-# Windows system files
+### Windows ###
 Thumbs.db
 
-# VS Code settings
+### VS Code ###
 .vscode/
 
-# Temporary and log files
+### Temporary and log files ###
 *.log
 *.tmp
